@@ -1,0 +1,18 @@
+{
+  "name": "ocmapgen-web",
+  "version": "1.0.0",
+  "description": "Web interface for ocmapgen",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-better-router": "^2.1.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-static": "^3.0.0",
+    "ocmapgen-client": "^0.3.0"
+  }
+}
