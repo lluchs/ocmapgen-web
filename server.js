@@ -5,7 +5,7 @@ const {MapGen} = require('ocmapgen-client')
 
 const opts = {
   root: process.env.OPENCLONK_PLANET || './openclonk',
-  timeout: 1000,
+  timeout: +process.env.TIMEOUT || 1000,
 }
 
 let ocmapgenCmd = process.env.OCMAPGEN
